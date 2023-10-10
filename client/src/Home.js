@@ -216,13 +216,13 @@ const renderRegisteredContainer = () => {
 
 const renderNotRegisteredContainer = () => {
   return (
-    <div className='text-center pt-5'>
-      <h2>MetaPayroll</h2>
-      <p>Easily create a payroll system using crypto</p>
-      <div className='col-md-4 m-auto mt-5'>
-          <div className="d-grid gap-2">
-        <button className='btn btn-outline-primary' id="button-addon2" onClick={createVault}>
-        {creatingVault ? (
+
+    <div className="px-4 py-5 my-5 text-center">
+    <h1 className="display-5 fw-bold text-body-emphasis">MetaPayroll</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="lead mb-4">Easily create a payroll system using crypto</p>
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" className="btn btn-primary btn-lg px-4 gap-3" id="button-addon2" onClick={createVault}>{creatingVault ? (
           <>
             <span
               className='spinner-border spinner-border-sm me-2'
@@ -233,12 +233,34 @@ const renderNotRegisteredContainer = () => {
           </>
         ) : (
           <span>Create Payroll Service</span>
-        )}
-        </button>  
-        </div>      
-        </div>
-      
+        )}</button>
+      </div>
     </div>
+  </div>
+    
+    // <div className='text-center pt-5'>
+    //   <h2>MetaPayroll</h2>
+    //   <p>Easily create a payroll system using crypto</p>
+    //   <div className='col-md-4 m-auto mt-5'>
+    //       <div className="d-grid gap-2">
+    //     <button className='btn btn-outline-primary' id="button-addon2" onClick={createVault}>
+    //     {creatingVault ? (
+    //       <>
+    //         <span
+    //           className='spinner-border spinner-border-sm me-2'
+    //           role='status'
+    //           aria-hidden='true'
+    //         ></span>
+    //         Creating
+    //       </>
+    //     ) : (
+    //       <span>Create Payroll Service</span>
+    //     )}
+    //     </button>  
+    //     </div>      
+    //     </div>
+      
+    // </div>
   );
 };
 
