@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-lg navbar-expand-md navbar-light'>
       <div className='container-fluid'>
         <a className='navbar-brand' href='/'>
-          Payroll
+          MetaPayroll
         </a>
         <button
           className='navbar-toggler'

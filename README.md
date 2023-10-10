@@ -1,4 +1,4 @@
-# AUTOMATIC PAYMENTS
+# MetaPayroll
 
 ## Overview
 

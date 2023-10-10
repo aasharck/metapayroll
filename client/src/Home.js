@@ -217,8 +217,8 @@ const renderRegisteredContainer = () => {
 const renderNotRegisteredContainer = () => {
   return (
     <div className='text-center pt-5'>
-      <h2>Create Payroll</h2>
-      <p>Create a Payroll service by clicking the button below</p>
+      <h2>MetaPayroll</h2>
+      <p>Easily create a payroll system using crypto</p>
       <div className='col-md-4 m-auto mt-5'>
           <div className="d-grid gap-2">
         <button className='btn btn-outline-primary' id="button-addon2" onClick={createVault}>

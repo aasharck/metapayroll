@@ -226,12 +226,12 @@ const Dashboard = ({ address, signer, vaultContract, linkContract, registryContr
   return (
     <div className='mb-5'>
       <h1 className='text-center'>Dashboard</h1>
-      {linkBalance == 0 && <div className="alert alert-danger mt-3" role="alert">
+      {/* {linkBalance == 0 && <div className="alert alert-danger mt-3" role="alert">
         You need LINK for the automation to work. Please fund atleast 15 LINK by clicking the Add Funds button below
       </div>}
       {moralisChain == 'goerli' && <div className="alert alert-info mt-3" role="alert">
         You can get Testnet LINK from - <a href="https://faucets.chain.link/goerli">here</a>. and also get Test USDC from <a href="https://goerli.etherscan.io/address/0x1Bf831e1462335A3874c6849Db254B85F90554fD#writeContract">here</a> by clicking getUSDC function
-      </div>}
+      </div>} */}
       {linkBalance <= minBalanceUpkeep+3 && <div className="alert alert-warning mt-3" role="alert">
         Minimum balance required to run the app is <b>{minBalanceUpkeep} LINK!</b> Please fund some LINK for the smooth working of the App
       </div>}
